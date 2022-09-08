@@ -91,7 +91,7 @@ def step_impl(context):
 
 #----------------------------------------------------------------------
 # Scenario: List all users
-    @given('a list of users stored in the system')
+@given('a list of users stored in the system')
 def step_impl(context):
     assert USERS
 
